@@ -27,7 +27,7 @@ public class EmployeeController {
 		return service.readAllEmployees();
 	}
 	@GetMapping(value = "/readAll", produces = "application/json")
-	public List<Employee> getAlEmployees(){
+	public List<Employee> getAllEmployees(){
 		return service.readAllEmployees();
 	}
 	@PutMapping(value = "/update/{id}", consumes = "application/json")
