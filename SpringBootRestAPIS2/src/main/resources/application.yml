@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: SpringBootAPIS2
+  
+server:
+  port: 6767
+  
